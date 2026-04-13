@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mahavir Udyog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: black;
+      color: gold;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+      url('https://images.unsplash.com/photo-1604908176997-4319c08a9c4f');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      color: gold;
+    }
+
+    .hero p {
+      margin: 15px 0;
+      font-size: 18px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: gold;
+      color: black;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(255,215,0,0.2);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: gold;
+    }
+
+    footer {
+      background: black;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  MAHAVIR UDYOG 🍜
+  <div>Premium Noodles</div>
+</header>
+
+<div class="hero">
+  <h1>Deliciousness in Every Bite</h1>
+  <p>Experience the taste of JAIN & BABA Noodles</p>
+  <button class="btn">Order Now</button>
+</div>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>
+    Mahavir Udyog delivers premium quality noodles made with love. 
+    From pure JAIN flavors to spicy BABA taste, we bring happiness to every meal.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Our Products</h2>
+
+  <div class="products">
+    <div class="card">
+      <h3>JAIN Noodles 🌿</h3>
+      <p>Simple, pure & delicious taste for everyone.</p>
+    </div>
+
+    <div class="card">
+      <h3>BABA Noodles 🔥</h3>
+      <p>Bold, spicy & full of exciting flavors.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Contact</h2>
+  <p>📞 +91 9839106579</p>
+  <p>📍 Kanpur, India</p>
+</div>
+
+<footer>
+  © 2026 Mahavir Udyog | Made with ❤️
+</footer>
+
+</body>
+</html>
